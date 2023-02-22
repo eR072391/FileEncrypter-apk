@@ -9,7 +9,7 @@ apkファイルは`release/FileEncrypter.apk`にあります。<br>
 
 ![](images/1.png)
 
-以下のURIは暗号化できないから注意してください。<br>
+以下のURIは暗号化できないので注意してください。<br>
 ```
     content://com.android.providers.media.documents/document/コンテンツID …… システムの画像選択ウィンドウ
     content://com.android.providers.downloads.documents/document/コンテンツID …… ダウンロード

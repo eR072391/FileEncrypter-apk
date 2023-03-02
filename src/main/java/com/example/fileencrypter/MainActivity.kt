@@ -198,7 +198,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
         // パディングしたパスワードバイト列を作成する
         val paddedPassword = ByteArray(passwordLength + paddingLength)
         System.arraycopy(passwordBytes, 0, paddedPassword, 0, passwordLength)
-        Log.d(paddedPassword.toString(), "debug")
+        
         // 秘密鍵生成
         val cipher = Cipher.getInstance("AES")
         val secretKey = SecretKeySpec(paddedPassword, "AES/CBC/PKCS5Padding")
